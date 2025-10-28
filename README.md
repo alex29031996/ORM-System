@@ -2,11 +2,6 @@
 
 Sheet Vision is a python program which reads sheet music and turns it into midi files.
 
-![image](https://cloud.githubusercontent.com/assets/7611406/17604255/9819f878-5fef-11e6-8f49-865d07284803.png)
-
-## Developing a Sheet Music Reader
-Calvin Gregory, and Calvert Pratt
-
 ### I.	Introduction
 Applications in the field of Music Optical Character Recognition (OCR), also referred to as Optical Music Recognition, are an application of machine vision which serves to simplify the sight reading learning process and speed up music transcription. The sheet music reader application SheetVision was developed to convert single-tone lines of written music into a computer readable format for audio song playback. It does this through a template image matching algorithm implemented in Python using OpenCV which searches the target image for instances of each music character type such as notes, flats, and sharps. These characters are then identified, sequenced, and exported to a MIDI file for playback. 
 
